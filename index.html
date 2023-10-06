@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="index.css"> <!-- Include your CSS file here -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="#home" class="nav-link home">Home</a></li>
+            <li><a href="#about" class="nav-link about">About</a></li>
+            <li><a href="#skills" class="nav-link skills">Skills</a></li>
+            <li><a href="#projects" class="nav-link projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link contact">Contact</a></li>
+            <li><a href="#" class="nav-link resume" id="resume-link-1">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <img src="your-photo.jpg" alt="Your Photo" class="home-img">
+        <h1 id="user-detail-name">Shivam pathak</h1>
+        <p id="user-detail-intro">Full Stack Developer</p>
+        <a href="your-resume.pdf" target="_blank" class="nav-link resume" id="resume-link-2">Download Resume</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <!-- Your about content here -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="skills-card">
+            <img src="skill1.jpg" alt="Skill 1" class="skills-card-img">
+            <h2 class="skills-card-name">Skill 1</h2>
+        </div>
+        <div class="skills-card">
+            <img src="skill2.jpg" alt="Skill 2" class="skills-card-img">
+            <h2 class="skills-card-name">Skill 2</h2>
+        </div>
+        <!-- Add more skills cards as needed -->
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <h2 class="project-title">Project 1</h2>
+            <p class="project-description">Description of Project 1.</p>
+            <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
+            <a href="github-link-1" class="project-github-link">GitHub Repository</a>
+            <a href="deployed-link-1" class="project-deployed-link">Demo</a>
+        </div>
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <h2 class="project-title">Project 2</h2>
+            <p class="project-description">Description of Project 2.</p>
+            <p class="project-tech-stack">Tech Stack: Python, Flask</p>
+            <a href="github-link-2" class="project-github-link">GitHub Repository</a>
+            <a href="deployed-link-2" class="project-deployed-link">Demo</a>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <a href="https://github.com/your-github" id="contact-github">GitHub Profile</a>
+        <a href="https://linkedin.com/in/your-linkedin" id="contact-linkedin">LinkedIn Profile</a>
+        <p id="contact-phone">Phone: +91 6386348915</p>
+        <p id="contact-email">Email: shivampathak50065@gmail.com</p>
+    </section>
+
+    <!-- GitHub Calendar -->
+    <div class="react-activity-calendar"></div>
+
+    <!-- GitHub Statistics -->
+    <img src="https://github-readme-streak-stats.herokuapp.com/demo/" id="github-streak-stats">
+    <img src="https://github.com/anuraghazra/github-readme-stats" id="github-top-langs">
+    <img src="https://github.com/anuraghazra/github-readme-stats" id="github-stats-card">
+
+    <script src="script.js"></script> <!-- Include your JavaScript file here -->
+</body>
+
+</html>
