@@ -1,0 +1,106 @@
+#skills {
+  max-width: 1280px;
+  margin: auto;
+}
+
+#skill_section {
+  border: 1px solid #854ce6;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+
+  margin: 30px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.skills-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 16px;
+}
+#skills h1 {
+  text-align: center;
+  font-size: 2.4em;
+  padding: 15px;
+}
+
+.skill_box {
+  max-width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #854ce6;
+  height: 70px;
+  padding: 20px;
+}
+.skill_box img {
+  width: 60px;
+  padding-right: 20px;
+}
+.skill_box span {
+  font-size: 1.4em;
+}
+
+.githubConatiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid #854ce6;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 30px;
+  margin-top: 0;
+}
+
+@media screen and (width<1150px) {
+  #skill_section {
+    font-size: 15px;
+  }
+  .skill_box span {
+    font-size: 1.1em;
+  }
+  #skills h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (width<850px) {
+  #skill_section {
+    font-size: 14px;
+  }
+  .skill_box img {
+    width: 50px;
+  }
+  #skills h1 {
+    font-size: 1.8em;
+  }
+  .skill_box span {
+    font-size: 1em;
+  }
+  .githubConatiner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (width<550px) {
+  #skill_section {
+    font-size: 12px;
+  }
+  .skill_box img {
+    width: 40px;
+  }
+  #skills h1 {
+    font-size: 1.7em;
+  }
+  .skill_box span {
+    font-size: 0.9em;
+  }
+}
