@@ -68,7 +68,7 @@ function Projects() {
                     </div>
                 </div>
             </div> */}
-            <div className="project-card">
+            {/* <div className="project-card">
                 <div className='projectDetails'>
                     <h2 className="project-title">Just A Dummy Project</h2>
                     <div className="project-tech-stack">
@@ -85,7 +85,7 @@ function Projects() {
                 <div>
                     <img src={greenParadise} alt="" />
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
