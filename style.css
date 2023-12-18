@@ -541,7 +541,8 @@ form .btn2 {
     text-decoration: none;
     color: #57a8ff;
     font-size: 15px;
-    padding: 5px 10px;
+    padding: 10px 5px;
+    gap: 10px;
 
 }
 /* --------------------css for small screen------- */
